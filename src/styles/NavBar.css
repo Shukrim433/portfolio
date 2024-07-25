@@ -1,0 +1,16 @@
+.navbar {
+ padding-top: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  margin: 20 0px;
+  padding: 0 25px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  padding-right: 10px;
+}
