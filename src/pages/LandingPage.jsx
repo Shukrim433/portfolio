@@ -10,7 +10,7 @@ export default function LandingPage() {
   // after 7.5 seconds show the btn
   setTimeout(() => {
     setIsTypingComplete(true);
-  }, 7500);
+  }, 7600);
 
   const handleClick = () => {
     navigate("/projects");

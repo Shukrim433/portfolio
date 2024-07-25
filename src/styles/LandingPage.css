@@ -1,15 +1,17 @@
 button {
   padding: 3%;
-  border-radius: 7%;
+  border-radius: 10px;
   background-color: #fffcf2;
   border: 1px, solid, black;
   font-size: larger;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  width: 150px;
+  height: 55px;
 }
 
 button:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 11px rgba(54, 54, 54, 0.2);
   cursor: pointer;
 }
 
