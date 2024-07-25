@@ -1,7 +1,7 @@
-button {
+.landing-button {
   padding: 3%;
   border-radius: 10px;
-  background-color: #fffcf2;
+  background-color: #f8f4e7;
   border: 1px, solid, black;
   font-size: larger;
   font-family: "Times New Roman", Times, serif;
@@ -10,12 +10,14 @@ button {
   height: 55px;
 }
 
-button:hover {
+.landing-button:hover {
   box-shadow: 0 0 11px rgba(54, 54, 54, 0.2);
   cursor: pointer;
 }
 
 .landing-page {
+  position: absolute;
+  top: 12.5%;
   display: flex;
   flex-wrap: wrap;
   width: 50%;
@@ -25,7 +27,10 @@ button:hover {
   margin-left: 20%;
 }
 
-.lets-go {
-    margin-top: 7%;
+.type-writer {
+  text-align: center;
 }
 
+.lets-go {
+  margin-top: 10%;
+}

@@ -15,7 +15,7 @@ export default function LandingPage() {
   const handleClick = () => {
     navigate("/projects");
   }
-  document.body.style = "background: #fffcf2;"; // beige
+  /* document.body.style.background = '#f8f4e7'; // beige */
 
   return (
     <div className="landing-page">
@@ -33,7 +33,7 @@ export default function LandingPage() {
       </div>
       {isTypingComplete && (
         <div className="lets-go">
-          <button onClick={handleClick}>Let's go!</button>
+          <button className="landing-button" onClick={handleClick}>Let's go!</button>
         </div>
       )}
     </div>
