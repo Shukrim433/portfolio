@@ -1,5 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.playfair-display-font {
+  /* The specific class .playfair-display-font is still defined in case you need to apply this font to specific elements only, but it’s not necessary for applying the font universally. */
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+}
+
+:root {
+  --beige: #f8f4e7;
+  --green: #283618;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: va;
+  background-color: var(--beige);
+  color: var(--green);
+}
 .navbar {
- padding-top: 15px;
+  padding-top: 15px;
 }
 
 .navbar ul {
@@ -10,7 +43,70 @@
   padding: 0 25px;
 }
 
-.navbar ul li {
-  list-style-type: none;
+.navbar ul a {
+  /* margin: 0 2rem; */
+  text-decoration: none;
+  color: var(--green);
   padding-right: 10px;
+}
+
+.navbar ul a:hover {
+  text-decoration: underline;
+}
+
+header .nav-btn {
+  /* dont show buttons on big screen */
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--beige);
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  header .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .navbar ul a {
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  header .responsive_nav {
+    /* toggles the navbar using the useRef + classList + function*/
+    transform: none;
+  }
+
+  .navbar .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 }
