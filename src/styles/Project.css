@@ -1,0 +1,53 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-list .single-project {
+    margin: 10px;
+    border: 8px, solid, white;
+    border-radius: 10px;
+    position: relative; /* makes sure the img sits underneath the cover div */
+    width: 420px;
+    height: 300px;
+    overflow: hidden; 
+}
+
+.project-list .single-project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-body{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute; /* makes it sit ontop of the img */
+  background: rgba(0, 0, 0, 0.833);
+  backdrop-filter: blur(5px);
+  color: var(--beige);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-body .project-title {
+  text-transform: uppercase;
+}
+.project-links a{
+  color: var(--beige);
+  text-decoration: none;
+}
