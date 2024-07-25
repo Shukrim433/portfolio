@@ -1,0 +1,5 @@
+.App {
+  min-height: 100vh; /* 100vh = 100% of the viewport height */
+  display: flex; /* make it a flex box */
+  flex-direction: column; /* stack child components of App div */
+}
