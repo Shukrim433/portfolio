@@ -1,5 +1,5 @@
+import "../styles/Footer.css";
+
 export default function Footer() {
-    return (
-        <div>footer</div>
-    )
+  return <footer>© 2024 Shukri Mohamed</footer>;
 }
