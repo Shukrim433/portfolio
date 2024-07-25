@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./UI/NavBar";
-/* import "../styles/Header.css"; */
+import "../styles/Header.css";
 
 export default function Header() {
   return (
-    <React.Fragment>
+    <div className="header-div">
+      <React.Fragment>
         <Navbar
           links={[
             <Link key={1} className="nav-link" to="/projects">
@@ -19,6 +20,7 @@ export default function Header() {
             </Link>,
           ]}
         />
-    </React.Fragment>
+      </React.Fragment>
+    </div>
   );
 }

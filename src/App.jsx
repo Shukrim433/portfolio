@@ -1,4 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
+import HamburgerProvider from "./utils/HamburgerContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import './styles/App.css'
@@ -8,6 +9,7 @@ function App() {
   const isLandingPage = location.pathname === '/'
   document.body.style.background = '#f8f4e7'; // beige
   return (
+    <HamburgerProvider>
     <div className="App">
       {!isLandingPage && <Header />}
       {/* Outlet component will conditionally show the appropriate page component based on the URL */}
@@ -16,6 +18,7 @@ function App() {
       </div>
       {!isLandingPage && <Footer />}
     </div>
+    </HamburgerProvider>
   );
 }
 

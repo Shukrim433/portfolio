@@ -1,10 +1,32 @@
 import { useRef } from "react";
+import { useBurger } from "../../utils/HamburgerContext";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../../styles/NavBar.css";
+/* import ProjectsPage from "../../pages/ProjectsPage"; */
 
 export default function Navbar({ links }) {
+  const {burgerClicked, setBurgerClicked} = useBurger()
   const navRef = useRef();
+  /* const [burgerClicked, setBurgerClicked] = useState(false); */
+  console.log(burgerClicked, "NavBar comp")
 
+  const toggleBurgerClick = () => {
+    setBurgerClicked(true);
+  };
+
+  const toggleCloseClick = () => {
+    setBurgerClicked(false);
+  };
+
+  const handleBurgerClick = () => {
+    showNavbar();
+    toggleBurgerClick();
+  };
+
+  const handleCloseClick = () => {
+    showNavbar();
+    toggleCloseClick();
+  };
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
@@ -18,11 +40,11 @@ export default function Navbar({ links }) {
             <a key={index}>{link}</a>
           ))}
         </ul>
-        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+        <button className="nav-btn nav-close-btn" onClick={handleCloseClick}>
           <FaTimes />
         </button>
       </nav>
-      <button className="nav-btn " onClick={showNavbar}>
+      <button className="nav-btn " onClick={handleBurgerClick}>
         <FaBars />
       </button>
     </header>

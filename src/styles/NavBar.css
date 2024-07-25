@@ -84,8 +84,8 @@ header .nav-btn {
     justify-content: center;
     gap: 1.5rem;
     background-color: var(--beige);
-    transition: 1s;
-    transform: translateY(-100vh);
+    /* transition: 0.75s; */
+    transform: translateX(-100vh);
   }
 
   header .navbar ul {
@@ -97,8 +97,12 @@ header .nav-btn {
   header .navbar ul a {
     padding-bottom: 10px;
     font-size: 1.5rem;
+    color: var(--green);
   }
 
+  header .navbar ul a:hover {
+    text-decoration: underline;
+  }
   header .responsive_nav {
     /* toggles the navbar using the useRef + classList + function*/
     transform: none;

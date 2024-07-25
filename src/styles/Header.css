@@ -1,22 +1,3 @@
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.header-div{
+  margin-bottom: 40px;
 }
-
-.hamburger {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .hamburger {
-    display: flex;
-    padding-top: 10px;
-    margin-left: 10px;
-    z-index: 10;
-  }
-  .navigation ul {
-    display: none;
-  }
-}
-
