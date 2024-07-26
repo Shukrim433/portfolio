@@ -5,10 +5,10 @@ import "../../styles/NavBar.css";
 /* import ProjectsPage from "../../pages/ProjectsPage"; */
 
 export default function Navbar({ links }) {
-  const {burgerClicked, setBurgerClicked} = useBurger()
+  const { burgerClicked, setBurgerClicked } = useBurger();
   const navRef = useRef();
   /* const [burgerClicked, setBurgerClicked] = useState(false); */
-  console.log(burgerClicked, "NavBar comp")
+  console.log(burgerClicked, "NavBar comp");
 
   const toggleBurgerClick = () => {
     setBurgerClicked(true);
