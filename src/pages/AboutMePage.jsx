@@ -1,5 +1,4 @@
+import "../styles/AboutMe.css";
 export default function AboutMePage() {
-    return (
-        <div>AboutMePage</div>
-    )
+  return <div className="about-me">Express</div>;
 }

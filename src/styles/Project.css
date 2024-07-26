@@ -1,4 +1,5 @@
 .projects-container {
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -13,13 +14,13 @@
 }
 
 .project-list .single-project {
-    margin: 10px;
-    border: 8px, solid, white;
-    border-radius: 10px;
-    position: relative; /* makes sure the img sits underneath the cover div */
-    width: 420px;
-    height: 300px;
-    overflow: hidden; 
+  margin: 10px;
+  /* border: 8px, solid, white; */
+  border-radius: 10px;
+  position: relative; /* makes sure the img sits underneath the cover div */
+  width: 420px;
+  height: 300px;
+  overflow: hidden; /* hides the overflow of the card body being 100% to the right */
 }
 
 .project-list .single-project img {
@@ -29,11 +30,11 @@
   border-radius: 10px;
 }
 
-.card-body{
+.card-body {
   width: 100%;
   height: 100%;
   top: 0;
-  right: 0;
+  right: -100%;
   position: absolute; /* makes it sit ontop of the img */
   background: rgba(0, 0, 0, 0.833);
   backdrop-filter: blur(5px);
@@ -42,12 +43,34 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  transition: 1s;
+}
+
+.single-project:hover .card-body {
+  /* when you hover over the single project div, select the card body (the cover) and make make its right position 0 instead of 100% to show it */
+  right: 0;
 }
 
 .card-body .project-title {
   text-transform: uppercase;
+  font-size: 50px;
 }
-.project-links a{
+.project-links a {
   color: var(--beige);
   text-decoration: none;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .project-list .single-project {
+    margin: 1%;
+    width: 400px;
+    height: 280px;
+  }
 }
