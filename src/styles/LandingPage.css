@@ -1,8 +1,9 @@
 .landing-button {
   padding: 3%;
   border-radius: 10px;
-  background-color: #f8f4e7;
-  border: 1px, solid, black;
+  background-color: var(--green);
+  color: var(--beige);
+  border: 1px, solid, var(--green);
   font-size: larger;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
@@ -16,15 +17,14 @@
 }
 
 .landing-page {
-  position: absolute;
-  top: 12.5%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 50%;
   justify-content: center;
   align-items: center;
   padding: 5%;
-  margin-left: 20%;
+  margin-left: 25%;
+  margin-top: 12.5vh;
 }
 
 .type-writer {
