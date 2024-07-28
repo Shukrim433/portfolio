@@ -20,7 +20,7 @@ export default function LandingPage() {
   return (
     <div className="landing-page">
       <div className="type-writer">
-        <h1 style={{ color: "#283618" }}>
+        <h1 style={{ color: "#2E0E02" }}>
           <Typewriter
             words={[
               "Hi, my name is Shukri Mohamed. I'm a full stack web developer and welcome to my portfolio!",
