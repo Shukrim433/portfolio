@@ -1,0 +1,46 @@
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cv-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px, solid, black;
+    border-radius: 10px;
+    padding: 2%;
+
+}
+
+.pdf-img {
+    border-radius: 10px;
+}
+
+.contact-me button {
+  padding: 3%;
+  border-radius: 10px;
+  background-color: var(--green);
+  color: var(--beige);
+  border: 1px, solid, var(--green);
+  font-size: larger;
+  margin: 10px;
+}
+
+.contact-me button a {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+.contact-me-text {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-me-text p {
+  padding: 1%;
+  text-align: center;
+}
