@@ -1,3 +1,19 @@
+.hero {
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero .hero-text {
+  color: var(--green);
+  margin-top: 20px;
+  text-align: center;
+}
 .img-slider-container {
   /* styling the parent div of the img slider bcuz u dont want to put fixed w and h on the images because the imgs themselves could be different sizes */
   width: 500px;
@@ -18,56 +34,55 @@
   border-radius: 10px;
   background-position: center;
   background-size: cover;
-  color: var(--beige);
+  box-shadow: 0 0 11px rgba(54, 54, 54, 0.2);
+  color: var(--green);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 3rem
+  font-size: 3rem;
 }
 
-
-.left-arrow{
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    left: 32px;
-    font-size: 25px;
-    color: white;
-    z-index: 1;
-    cursor: pointer;
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 25px;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
 }
 
-.rigth-arrow{
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    right: 32px;
-    font-size: 25px;
-    color: white;
-    z-index: 1;
-    cursor: pointer;
+.rigth-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 25px;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
 }
 
-.dots-container{
-    display: flex;
-    justify-content: center;
+.dots-container {
+  display: flex;
+  justify-content: center;
 }
 
-.dot{
-    margin: 0.3px;
-    cursor: pointer;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.525);
+.dot {
+  margin: 0.3px;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.525);
 }
 
-.dot:hover{
-    color: black;
+.dot:hover {
+  color: black;
 }
-
 
 @media only screen and (max-width: 1024px) {
-.img-slider-container {
+  .img-slider-container {
     width: 400px;
     height: 200px;
   }
