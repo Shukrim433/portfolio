@@ -17,8 +17,8 @@
 }
 
 :root {
-  --beige: #f8f4e7;
-  --green: #283618;
+  --beige: #F3E8D7;
+  --green: #2E0E02;
 }
 
 header {
@@ -48,6 +48,7 @@ header {
   text-decoration: none;
   color: var(--green);
   padding-right: 10px;
+  font-size: 1.3rem;
 }
 
 .navbar ul a:hover {
@@ -84,7 +85,7 @@ header .nav-btn {
     justify-content: center;
     gap: 1.5rem;
     background-color: var(--beige);
-    /* transition: 0.75s; */
+    transition: 0.75s;
     transform: translateX(-100vh);
   }
 
