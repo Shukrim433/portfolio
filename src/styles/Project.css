@@ -1,5 +1,5 @@
 .projects-container {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -43,7 +43,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  transition: 1s;
+  /* transition: 1s; */ /* will make cover slide in from right */
 }
 
 .single-project:hover .card-body {
