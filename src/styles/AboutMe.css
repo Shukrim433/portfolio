@@ -1,9 +1,26 @@
 .about-me {
     display: flex;
+    flex-direction: column;
+    padding: 8%;
+}
+
+.about-header{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.about-body{
+    font-size: 1.5rem;
+}
+
+/* 
+display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 40px;
+    margin: 20px;
     font-size: 2rem;
     font-weight: 600;
-}
+     */
