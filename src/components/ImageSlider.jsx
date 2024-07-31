@@ -1,4 +1,4 @@
-import { FaReact } from "react-icons/fa";
+import image1 from "../imgs/image1.jpeg";
 import "../styles/ImageSlider.css";
 import { useState } from "react";
 
@@ -29,15 +29,10 @@ export default function ImageSlider({ slides }) {
         {" "}
         ❱{" "}
       </div>
-      <div
-        className="img-slide"
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-      >
+      <div className="img-slide" style={{ backgroundImage: `url(${image1})` }}>
         <p className="skill">
-          {slides[currentIndex].skill} <br/>
-          <span>
-          {slides[currentIndex].icon}
-          </span>
+          {slides[currentIndex].skill} <br />
+          <span>{slides[currentIndex].icon}</span>
         </p>
       </div>
       <div className="dots-container">
