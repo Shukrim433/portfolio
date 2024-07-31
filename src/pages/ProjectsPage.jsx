@@ -103,7 +103,7 @@ export default function ProjectsPage() {
 
   return (
     <>
-      <div className="hero" style={{ backgroundImage: `url(${hero1})` }}>
+      <div className="hero" style={{ background: '#C7B65C' }}>
         <div className="img-slider-container">
           {burgerClicked === false && <ImageSlider slides={slides} />}
         </div>

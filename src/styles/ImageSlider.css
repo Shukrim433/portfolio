@@ -1,5 +1,5 @@
 .hero {
-  height: 60vh;
+  height: 70vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -10,7 +10,7 @@
 }
 
 .hero .hero-text {
-  color: var(--green);
+  color: var(--beige);
   margin-top: 20px;
   text-align: center;
 }
