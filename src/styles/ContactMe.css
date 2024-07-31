@@ -1,46 +1,66 @@
 .contact-me {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  padding: 8%;
 }
 
-.cv-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px, solid, black;
-    border-radius: 10px;
-    padding: 2%;
+.contact-me h2 {
+  color: var(--yellow);
+  text-transform: uppercase;
+  font-size: 2rem;
+}
 
+.cv-card {
+  display: flex;
+  background: white;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 11px rgba(54, 54, 54, 0.2);
+  border-radius: 10px;
+  padding: 2%;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .pdf-img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .contact-me button {
   padding: 3%;
   border-radius: 10px;
-  background-color: var(--green);
-  color: var(--beige);
-  border: 1px, solid, var(--green);
+  background: var(--yellow);
+  border: 0cap;
+  box-shadow: 0 0 11px rgba(54, 54, 54, 0.2);
   font-size: larger;
-  margin: 10px;
+  margin: 20px;
 }
 
 .contact-me button a {
   text-decoration: none;
-  color: var(--beige);
+  color: white;
 }
 
 .contact-me-text {
   width: 100%;
   margin-top: 10px;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--yellow);
 }
 
 .contact-me-text p {
   padding: 1%;
-  text-align: center;
+  font-weight: 300;
+}
+
+.contact-me-text p a {
+  text-decoration: none;
+  color: var(--yellow);
+}
+
+.contact-me-text p a:hover {
+  text-decoration: underline;
 }
