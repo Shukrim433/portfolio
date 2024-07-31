@@ -34,7 +34,7 @@ export default function ImageSlider({ slides }) {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
       >
         <p className="skill">
-          <p>{slides[currentIndex].skill}</p>
+          {slides[currentIndex].skill} <br/>
           <span>
           {slides[currentIndex].icon}
           </span>

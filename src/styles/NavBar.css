@@ -18,8 +18,8 @@
 
 :root {
   --beige: #fdfee7;
-  --green: #2E0E02;
-  --yellow: #C7B65C;
+  --green: #2e0e02;
+  --yellow: #c7b65c;
 }
 
 header {
@@ -32,6 +32,11 @@ header {
   background-color: var(--beige);
   color: var(--green);
 }
+
+header h1 {
+  font-size: 2.3rem;
+}
+
 .navbar {
   padding-top: 15px;
 }
@@ -44,15 +49,19 @@ header {
   padding: 0 25px;
 }
 
-.navbar ul a {
+.navbar ul li {
   /* margin: 0 2rem; */
+  list-style-type: none;
+}
+
+.navbar ul li a {
   text-decoration: none;
   color: var(--green);
   padding-right: 10px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
-.navbar ul a:hover {
+.navbar ul li:hover {
   text-decoration: underline;
 }
 
@@ -86,7 +95,7 @@ header .nav-btn {
     justify-content: center;
     gap: 1.5rem;
     background-color: var(--beige);
-    transition: 0.75s;
+    /* transition: 0.75s; */ /* get rid of or add sliding transition */
     transform: translateX(-100vh);
   }
 

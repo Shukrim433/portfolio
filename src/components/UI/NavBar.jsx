@@ -2,13 +2,11 @@ import { useRef } from "react";
 import { useBurger } from "../../utils/HamburgerContext";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../../styles/NavBar.css";
-/* import ProjectsPage from "../../pages/ProjectsPage"; */
 
 export default function Navbar({ links }) {
   const { burgerClicked, setBurgerClicked } = useBurger();
   const navRef = useRef();
-  /* const [burgerClicked, setBurgerClicked] = useState(false); */
-  console.log(burgerClicked, "NavBar comp");
+  /* console.log(burgerClicked, "NavBar comp"); */
 
   const toggleBurgerClick = () => {
     setBurgerClicked(true);
@@ -33,11 +31,13 @@ export default function Navbar({ links }) {
   return (
     <header>
       <h1>Shukri Mohamed</h1>
-
       <nav ref={navRef} className="navbar">
         <ul>
           {links.map((link, index) => (
-            <a key={index}>{link}</a>
+            <li key={index}>
+              {" "}
+              {link}
+            </li>
           ))}
         </ul>
         <button className="nav-btn nav-close-btn" onClick={handleCloseClick}>

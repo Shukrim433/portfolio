@@ -19,7 +19,7 @@ import "../styles/ImageSlider.css";
 
 export default function ProjectsPage() {
   const { burgerClicked } = useBurger();
-  console.log(burgerClicked, "ProjectsPage comp");
+  /* console.log(burgerClicked, "ProjectsPage comp"); */
   const slides = [
     {
       url: "http://localhost:3000/image-1.jpeg",
