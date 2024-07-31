@@ -1,19 +1,19 @@
 [
   {
     "project": "Foodie",
-    "src": "../assets/foodie.png",
+    "src": "/assets/foodie.png",
     "link": "https://shukrim433.github.io/Foodie/",
     "repo": "https://github.com/Shukrim433/Foodie"
   },
   {
     "project": "Tech Hive",
-    "src": "../assets/tech-hive.png",
+    "src": "/assets/tech-hive.png",
     "link": "https://tech-hive-6gct.onrender.com/",
     "repo": "https://github.com/Shukrim433/Tech-Hive"
   },
   {
     "project": "Nanny Stork",
-    "src": "../assets/nanny-stork.png",
+    "src": "/assets/nanny-stork.png",
     "link": "https://nanny-stork.onrender.com/",
     "repo": "https://github.com/Shukrim433/nanny-stork"
   }
