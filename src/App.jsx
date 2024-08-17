@@ -6,17 +6,19 @@ import './styles/App.css'
 
 function App() {
   const location = useLocation()
-  const isLandingPage = location.pathname === '/'
+  /* const isLandingPage = location.pathname === '/' */
   document.body.style.background = '#fdfee7'; // beige
   return (
     <HamburgerProvider>
     <div className="App">
-      {!isLandingPage && <Header />}
+      {/* {!isLandingPage && <Header />} */}
       {/* Outlet component will conditionally show the appropriate page component based on the URL */}
+      <Header />
       <div className="body">
         <Outlet />
       </div>
-      {!isLandingPage && <Footer />}
+      <Footer />
+      {/* {!isLandingPage && <Footer />} */}
     </div>
     </HamburgerProvider>
   );

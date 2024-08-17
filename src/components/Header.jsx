@@ -9,7 +9,9 @@ export default function Header() {
       <React.Fragment>
         <Navbar
           links={[
-            <Link key={1} className="nav-link" to="/projects">
+            <Link key={1} className="nav-link" to="/">
+              {" "}
+              {/*changed from /projects */}
               Projects
             </Link>,
             <Link key={2} className="nav-link" to="/contact">
