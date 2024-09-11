@@ -29,7 +29,6 @@ header {
   height: 80px;
   padding: 0 2rem;
   background-color: va;
-  background-color: var(--beige);
   color: var(--green);
 }
 
@@ -77,6 +76,18 @@ header .nav-btn {
   font-size: 1.8rem;
 }
 
+.menu-icon {
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  color: #000000; /* Set a color if 'currentColor' isn't working */
+}
+
+.x-icon {
+  width: 30px; 
+  height: 30px; /* Adjust height as needed */
+  color: #000000; /* Set a color if 'currentColor' isn't working */
+}
+
 @media only screen and (max-width: 1024px) {
   header .nav-btn {
     visibility: visible;
@@ -94,7 +105,7 @@ header .nav-btn {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--beige);
+    background-color: #f9f5f0;
     /* transition: 0.75s; */ /* get rid of or add sliding transition */
     transform: translateX(-100vh);
   }
