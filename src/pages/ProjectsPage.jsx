@@ -16,10 +16,17 @@ import {
 import { useBurger } from "../utils/HamburgerContext";
 import "../styles/Project.css";
 import "../styles/ImageSlider.css";
+import { useNavigate } from "react-router-dom";
 
 export default function ProjectsPage() {
   const { burgerClicked } = useBurger();
+  const navigate = useNavigate();
   /* console.log(burgerClicked, "ProjectsPage comp"); */
+
+  const handleClick = () => {
+    navigate("/more-projects");
+  };
+
   const slides = [
     {
       skill: "React",
@@ -77,7 +84,7 @@ export default function ProjectsPage() {
 
   return (
     <>
-      <div className="hero" style={{ background: '#C7B65C' }}>
+      <div className="hero" style={{ background: "#C7B65C" }}>
         <div className="img-slider-container">
           {burgerClicked === false && <ImageSlider slides={slides} />}
         </div>
@@ -90,12 +97,15 @@ export default function ProjectsPage() {
             cursor
           />
         </h1>
-        
       </div>
 
       <div className="projects-container">
+        <h1>Main Projects:</h1>
         {burgerClicked === false && <ProjectList />}
+        <br />
+        <h1 onClick={handleClick}>See more of my projects here →</h1>
       </div>
+      <hr></hr>
     </>
   );
 }

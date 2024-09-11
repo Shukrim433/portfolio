@@ -2,8 +2,22 @@
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  
   align-items: center;
+}
+.projects-container h1{
+  color: var(--green);
+  text-align: left;
+  margin: 20px;
+  margin-left: 60px;
+  /* color: #C7B65C; */
+}
+
+hr {
+  margin-top: 60px;
+  background-color: rgb(0, 0, 0);
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .project-list {

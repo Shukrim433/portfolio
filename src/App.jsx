@@ -7,7 +7,7 @@ import './styles/App.css'
 function App() {
   const location = useLocation()
   /* const isLandingPage = location.pathname === '/' */
-  document.body.style.background = '#fdfee7'; // beige
+  document.body.style.background = '#F9F5F0'; // beige
   return (
     <HamburgerProvider>
     <div className="App">

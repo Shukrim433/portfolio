@@ -9,6 +9,7 @@ import AboutMePage from "./pages/AboutMePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactMePage from "./pages/ContactMePage";
 import LandingPage from "./pages/LandingPage";
+import MoreProjects from "./pages/MoreProjects";
 
 const router = createBrowserRouter([
   // define all the accessible routes, and which component(page) responds to which URL
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
-     /*  {
+      /*  {
         index: true,
         element: <LandingPage />,
       }, */
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
         index: true,
         element: <ProjectsPage />,
       },
+      /* {
+        path: "more-projects",
+        element: <MoreProjects />,
+      }, */
       {
         path: "contact",
         element: <ContactMePage />,
