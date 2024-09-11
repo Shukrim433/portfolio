@@ -84,7 +84,7 @@ export default function ProjectsPage() {
 
   return (
     <>
-      <div className="hero" style={{ background: "#C7B65C" }}>
+      <div className="hero">
         <div className="img-slider-container">
           {burgerClicked === false && <ImageSlider slides={slides} />}
         </div>
@@ -100,7 +100,7 @@ export default function ProjectsPage() {
       </div>
 
       <div className="projects-container">
-        <h1>Main Projects:</h1>
+        {/* <h1>Main Projects:</h1> */}
         {burgerClicked === false && <ProjectList />}
         <br />
        {/*  <h1 onClick={handleClick}>See more of my projects here →</h1> */}

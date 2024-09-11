@@ -1,8 +1,9 @@
 .hero {
-  height: 80vh;
+  height: 65vh;
   width: 100%;
   background-position: center;
   background-size: cover;
+  background-color: #E0D68A;
   display: flex;
   justify-content: center;
   align-items: center;
