@@ -14,6 +14,9 @@ export default function Header() {
               {/*changed from /projects */}
               Projects
             </Link>,
+            <Link key={2} className="nav-link" to="/more-projects">
+              More Projects
+            </Link>,
             <Link key={2} className="nav-link" to="/contact">
               Contact Me
             </Link>,

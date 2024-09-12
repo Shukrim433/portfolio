@@ -1,0 +1,45 @@
+[
+    {
+      "project": "README Generator",
+      "src": "/assets/placeholder.png",
+      "demoLinks": [
+        "https://app.screencastify.com/v3/watch/RVsitv5voweei1kTqu9T",
+        "https://app.screencastify.com/v3/watch/lQtjM5xP50x2G3Ygz2es"
+      ],
+      "repo": "https://github.com/Shukrim433/week-9-ReadMe-generator-challenge.git"
+    },
+    {
+      "project": "SVG Logo Generator",
+      "src": "/assets/placeholder.png",
+      "demoLinks": [
+        "https://watch.screencastify.com/v/Y1HtMj2hDPH4F5H5vi8j",
+        "https://watch.screencastify.com/v/bA0OzPAgMBLuFnnlsIgT"
+      ],
+      "repo": "https://github.com/Shukrim433/week-10-SVG-logo-generator-challenge.git"
+    },
+    {
+      "project": "SQL Employee Tracker",
+      "src": "/assets/placeholder.png",
+      "demoLinks": [
+        "https://app.screencastify.com/v3/watch/2kE4rnj2CfuGMmMcSPgu"
+      ],
+      "repo": "https://github.com/Shukrim433/week-10-SVG-logo-generator-challenge.git"
+    },
+    {
+      "project": "Ecommerce Site Backend",
+      "src": "/assets/placeholder.png",
+      "demoLinks": [
+        "https://app.screencastify.com/v3/watch/OBaLg3c3sCed2BZh1OI4"
+      ],
+      "repo": "https://github.com/Shukrim433/Week-13-ORM-ecommerce-challenge.git"
+    },
+    {
+      "project": "Social Network API",
+      "src": "/assets/placeholder.png",
+      "demoLinks": [
+        "https://app.screencastify.com/v3/watch/2Kk7UjhS6Yv6W2Nhxb1l",
+        "https://app.screencastify.com/v3/watch/Abt8833mpkV3dtobsGyt"
+      ],
+      "repo": "https://github.com/Shukrim433/week-18-Social-Network-API.git"
+    }
+  ]

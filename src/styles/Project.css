@@ -2,10 +2,10 @@
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  
+
   align-items: center;
 }
-.projects-container h1{
+.projects-container h1 {
   color: var(--green);
   text-align: left;
   margin: 20px;
@@ -37,7 +37,24 @@ hr {
   overflow: hidden; /* hides the overflow of the card body being 100% to the right */
 }
 
+.project-list .single-more-project {
+  margin: 10px;
+  /* border: 8px, solid, white; */
+  border-radius: 10px;
+  position: relative; /* makes sure the img sits underneath the cover div */
+  width: 420px;
+  height: 300px;
+  overflow: hidden; /* hides the overflow of the card body being 100% to the right */
+}
+
 .project-list .single-project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-list .single-more-project img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -65,6 +82,11 @@ hr {
   right: 0;
 }
 
+.single-more-project .card-body {
+  /* ALL SINGLE-MORE-PROJECT STYLES ARE FOR THE MORE PROJECTS PAGE CARDS SO THE CARD COVER IS ALWAYS THERE NO NEED TO HOVER*/
+  right: 0;
+}
+
 .card-body .project-title {
   text-transform: uppercase;
   font-size: 50px;
@@ -85,9 +107,21 @@ hr {
   cursor: pointer;
 }
 
+.single-more-project:hover {
+  cursor: pointer;
+}
+
+.demoLink {
+  padding: 2%;
+}
 
 @media only screen and (max-width: 1024px) {
   .project-list .single-project {
+    margin: 1%;
+    width: 400px;
+    height: 280px;
+  }
+  .project-list .single-more-project {
     margin: 1%;
     width: 400px;
     height: 280px;

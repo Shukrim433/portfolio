@@ -26,10 +26,10 @@ const router = createBrowserRouter([
         index: true,
         element: <ProjectsPage />,
       },
-      /* {
+      {
         path: "more-projects",
         element: <MoreProjects />,
-      }, */
+      },
       {
         path: "contact",
         element: <ContactMePage />,

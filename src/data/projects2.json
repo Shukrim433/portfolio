@@ -1,0 +1,50 @@
+[
+  {
+    "project": "Text Editor",
+    "src": "/assets/placeholder.png",
+    "link": "https://week-19-pwa-text-editor.onrender.com/",
+    "repo": "https://github.com/Shukrim433/week-19-PWA-text-editor"
+  },
+  {
+    "project": "Tech Blog",
+    "src": "/assets/placeholder.png",
+    "link": "https://tech-blog-site.onrender.com/",
+    "repo": "https://github.com/Shukrim433/Week-14-tech-blog-challenge"
+  },
+  {
+    "project": "Old Portfolio",
+    "src": "/assets/placeholder.png",
+    "link": "https://shukrim433.github.io/week-2-portfolio-challenge/",
+    "repo": "https://github.com/Shukrim433/week-2-portfolio-challenge.git"
+  },
+  {
+    "project": "Random Password Generator",
+    "src": "/assets/placeholder.png",
+    "link": "https://shukrim433.github.io/week-3-random-password-generator-challenge/",
+    "repo": "https://github.com/Shukrim433/week-3-random-password-generator-challenge.git"
+  },
+  {
+    "project": "Coding Quiz",
+    "src": "/assets/placeholder.png",
+    "link": "https://shukrim433.github.io/week-4-quiz-challenge/",
+    "repo": "https://github.com/Shukrim433/week-4-quiz-challenge.git"
+  },
+  {
+    "project": "Work-day Scheduler",
+    "src": "/assets/placeholder.png",
+    "link": "https://shukrim433.github.io/week-5-work-day-scheduler-challenge/",
+    "repo": "https://github.com/Shukrim433/week-5-work-day-scheduler-challenge.git"
+  },
+  {
+    "project": "Weather Dashboard",
+    "src": "/assets/placeholder.png",
+    "link": "https://shukrim433.github.io/week-6-weather-dashboard-challenge/",
+    "repo": "https://github.com/Shukrim433/week-6-weather-dashboard-challenge"
+  },
+  {
+    "project": "Note Taker Application",
+    "src": "/assets/placeholder.png",
+    "link": " https://github.com/Shukrim433/week-11-note-taker-challenge.git",
+    "repo": "https://github.com/Shukrim433/week-11-note-taker-challenge.git"
+  }
+]

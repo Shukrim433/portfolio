@@ -103,7 +103,7 @@ export default function ProjectsPage() {
         {/* <h1>Main Projects:</h1> */}
         {burgerClicked === false && <ProjectList />}
         <br />
-       {/*  <h1 onClick={handleClick}>See more of my projects here →</h1> */}
+        <h1 style={{cursor: "pointer"}} onClick={handleClick}>See more of my projects here →</h1>
       </div>
       <hr></hr>
     </>
