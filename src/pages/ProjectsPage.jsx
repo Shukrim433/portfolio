@@ -72,14 +72,14 @@ export default function ProjectsPage() {
       skill: "Handlebars",
       icon: <SiHandlebarsdotjs />,
     },
-    {
+    /* {
       skill: "Jquery",
       icon: <SiJquery />,
     },
     {
       skill: "Bootstrap",
       icon: <FaBootstrap />,
-    },
+    }, */
   ];
 
   return (
