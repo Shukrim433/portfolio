@@ -7,7 +7,6 @@ I started this project to create a stylish portfolio that would enable potential
 ## Table of Contents (Optional)
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Credits](#credits)
 - [Challenges](#challenges)
 - [Application](#application)
@@ -16,18 +15,6 @@ I started this project to create a stylish portfolio that would enable potential
 
 - npm run i
 - npm run dev
-
-## Usage
-
-- Login or Sign Up.
-- Search for products, even filter/sort products and select a product(of certain size),
-- Add to cart, remove from cart if you no longer want it, see cart total and sub total on the cart page.
-- Proceed to checkout, enter delivery information and proceed to payment.
-- The Stripe checkout page also shows cart total, enter test card details:
-  ![alt text](image.png)
-- If the payment was successful you will be redirected to your orders page, showing all the items you have ordered.
-- If the payment was not successful you will be redirected to the home page and the notification "Payment was cancelled" will be displayed.
-- Logout when you want.
 
 ## Credits
 
