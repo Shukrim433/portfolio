@@ -1,5 +1,29 @@
 [
   {
+    "project": "Character Quiz",
+    "src": "/assets/placeholder.png",
+    "link": "https://shukrim433.github.io/character-quiz/",
+    "repo": "https://github.com/Shukrim433/character-quiz"
+  },
+  {
+    "project": "React Character Quiz",
+    "src": "/assets/placeholder.png",
+    "link": "https://shukri-react-quiz.netlify.app",
+    "repo": "https://github.com/Shukrim433/character-quiz-react"
+  },
+  {
+    "project": "To-do list",
+    "src": "/assets/placeholder.png",
+    "link": "https://shukrim433.github.io/To-do-List/",
+    "repo": "https://github.com/Shukrim433/To-do-List"
+  },
+  {
+    "project": "React To-do list",
+    "src": "/assets/placeholder.png",
+    "link": "https://to-do-shukri.netlify.app/",
+    "repo": "https://github.com/Shukrim433/To-do-List-React"
+  },
+  {
     "project": "Text Editor",
     "src": "/assets/placeholder.png",
     "link": "https://week-19-pwa-text-editor.onrender.com/",
