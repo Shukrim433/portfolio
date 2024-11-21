@@ -12,6 +12,12 @@
     "repo": "https://github.com/Shukrim433/Tech-Hive"
   },
   {
+    "project": "Tech Blog",
+    "src": "/assets/tech-blog-img.png",
+    "link": "https://tech-blog-4-p2u3.onrender.com/",
+    "repo": "https://github.com/Shukrim433/Week-14-tech-blog-challenge"
+  },
+  {
     "project": "Nanny Stork",
     "src": "/assets/nanny-stork.png",
     "link": "https://nanny-stork.onrender.com/",
