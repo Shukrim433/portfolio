@@ -2,8 +2,10 @@ import { useRef } from "react";
 import { useBurger } from "../../utils/HamburgerContext";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../../styles/NavBar.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar({ links }) {
+  const navigate = useNavigate()
   const { burgerClicked, setBurgerClicked } = useBurger();
   const navRef = useRef();
   /* console.log(burgerClicked, "NavBar comp"); */
@@ -30,7 +32,7 @@ export default function Navbar({ links }) {
   };
   return (
     <header>
-      <h1>Shukri Mohamed</h1>
+      <h1 onClick={()=>navigate("/")}>Shukri Mohamed</h1>
       <nav ref={navRef} className="navbar">
         <ul>
           {links.map((link, index) => (

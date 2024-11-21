@@ -1,9 +1,9 @@
 .hero {
-  height: 65vh;
+  height: 50vh;
   width: 100%;
   background-position: center;
   background-size: cover;
-  background-color: #E0D68A;
+  /* background-color: #E0D68A; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
 }
 
 .hero .hero-text {
-  color: var(--beige);
+  color: var(--green);
   margin-top: 20px;
   text-align: center;
 }
